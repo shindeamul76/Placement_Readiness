@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #efefefef;
+    margin-top: 2vmax;
+}
+
+.chair {
+    width: 23vmax;
+    height: 28vmax;
+    border: none;
+    padding: 10px;
+    background-color: #efefefef;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.chair:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 0.5s;
+    transform: rotate(-5deg);
+    border-color: rgb(168, 211, 197);
+    background-color: rgb(195, 221, 212);
+    box-shadow: 0 0 11px rgba(33,33,33,.2)
+}
+
+.chair #ids p:after {
+    content:'SDES2SDLN23'
+}
+
+.chair:hover #ids p:after{
+    content:'The chairs are very standard';
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+#one{
+    background-color: #fff;
+    height: 286px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#edit img{
+    width: 20px;
+    height: 20px;
+}
+
+#mainImg {
+    margin-top: 1vmax;
+    height: 256px;
+}
+#mainImg img{
+    width: 100%;
+    height: 91%;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.per {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: teal;
+    color: orange;
+    text-align: center;
+}
+
+#name {
+    font-size: 15px;
+    margin-bottom: 1vmax;
+    margin-top: 1vmax;
+}
+
+
+
+.hidden {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1vmax;
+    color: teal;
+    margin: 1vmax;
+  
+}
+
+.hidden img{
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.hidden section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+
