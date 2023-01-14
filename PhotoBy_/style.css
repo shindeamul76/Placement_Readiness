@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 3vmax;
+    background-color: lightpink;
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px lightpink;
+   
+}
+
+header {
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 2vmax;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.nav {
+    display: flex;
+    
+}
+.nav div a{
+    text-decoration: none;
+}
+.nav div {
+    margin-left: 2vmax;
+}
+.join {
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 5px gray;
+    margin-right: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vmax;
+   
+}
+
+.mobile {
+    height: 100%;
+    width: 50%;
+}
+
+.heading {
+    height: 30%;
+    width: 100%;
+    margin-left: 4vmax;
+}
+
+.heading div {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.mob-img {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mob {
+    width: 40%;
+    height: 100%;
+}
+
+.mob>div img {
+    margin-top: 1vmax;
+    height: 100%;
+    width: 100%;
+}
+.desc {
+    width: 60%;
+    height: 100%;
+    margin-left: 2vmax;
+}
+.photo {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-photo {
+    width: 80%;
+    height: 100%;
+}
+
+.big img {
+    width: 85%;
+    height: 35vmax;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 20px -30px gray;
+    margin-top: 2vmax;
+    margin-left: 3vmax;
+}
+
+.side {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10vmax;
+}
+
+.side div {
+    margin-top: 2vmax;
+}
+
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+#power {
+    margin-bottom: 2vmax;
+}
+
+#uses {
+    display: flex;
+    align-items: center;
+    gap: 3vmax;
+    margin-bottom: 2vmax;
+}
+
+#userIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mac {
+    display: flex;
+    margin-bottom: 2vmax;
+    margin-top: 3vmax;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 3vmax;
+    margin-top: 7vmax;
+}
+
+.btn button {
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgb(5, 4, 5);
+    color: white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+}
+
+.small {
+    display: flex;
+    gap: 20px;
+}
+
+.squre {
+    position: relative;
+    bottom: 60px;
+    width: 120px;
+    height: 140px;
+    border-bottom-right-radius: 50px;
+    background: url('https://i.pinimg.com/550x/9e/11/67/9e116714a33851fbadeb9f3dbef7fcdd.jpg');
+}
+
+
+.small img {
+    width: 70px;
+    height: 50px;
+    margin-top: 1vmax;
+}
+
+.side img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    margin-top: 2vmax;
+    align-items: center;
+    margin-left: 4vmax;
+}
+
+
+.footer img {
+    width: 60px;
+    height: 60px;
+  
+}
+
+.round img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.small-img  img{
+    width: 20px;
+    height: 20px;
+}
+
+.Artist {
+    width: 300px;
+    height: 60px;
+    border: 1px solid lightgray;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin-left:2vmax;
+    border-radius: 30px;
+}
+
+.art-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.r-b {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 4vmax;
+}
+
+.latest {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 2vmax;
+    gap: 10px;
+}
