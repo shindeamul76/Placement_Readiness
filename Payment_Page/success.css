@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 194, 202);
+}
+
+.container {
+    width: 30vmax;
+    height: 25vmax;
+    border: 1px solid green;
+    text-align: center;
+    margin-top: 10vmax;
+    background-color: rgb(4, 61, 4);
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.img {
+    margin-top: 6vmax;
+}
+
+.done {
+    font-size: 3em;
+}
+
+.proced {
+    font-size: 1em;
+    letter-spacing: 2px;
+}

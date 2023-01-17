@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(174, 194, 202);
+}
+
+.paymentContainer {
+    border: 1px solid white;
+    width: 20%;
+    height: 50vmax;
+    border-radius: 2vmax;
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+    padding: 2vmax 2vmax;
+    background-color: #ffffff;
+}
+
+.payment {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 2vmax;
+    letter-spacing: 2px;
+}
+
+.payment span {
+    font-size: 0.6em;
+    font-weight: 700;
+    color: lightgrey;
+    letter-spacing: 2px;
+}
+
+.dollar {
+    width: 100%;
+    height: 17vmax;
+    border:none;
+    margin-bottom: 5px;
+    margin-top: 5vmax;
+    background-color: rgb(220, 227, 230);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(229, 239, 242);
+}
+
+.usd {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 2vmax;
+    color: rgb(5, 0, 0);
+}
+
+.usd span {
+    font-size: 0.5em;
+    color: grey;
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 7px;
+    letter-spacing: 2px;
+    margin-top: 2vmax;
+}
+
+hr {
+    border: 1px solid blue;
+}
+
+.know {
+    margin-top: 4vmax;
+}
+
+.message img {
+    width: 1vmax;
+    height: 1vmax;
+}
+
+.message span {
+    margin-left: 1vmax;
+}
+.payCard {
+    margin-top: 2vmax;
+}
+
+.pay {
+    font-size: 1.6em;
+    margin-bottom: 2vmax;
+}
+
+#input {
+    width: 60%;
+    height: 3vmax;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 2vmax;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(229, 239, 242);
+}
+
+.date input {
+    width: 20%;
+    height: 2vmax;
+    margin: 1vmax;
+    border: none;
+    text-align: center;
+}
+
+#btn {
+    margin-top: 3vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn button {
+    width: 20vmax;
+    height: 3vmax;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+}
+
